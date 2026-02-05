@@ -12,7 +12,8 @@ Model selection
 Evaluation using standard metrics
 Explaining how the model arrives at predictions
 
-2. Model Pipeline Description
+2.Model Pipeline Description:
+   
 The complete machine learning pipeline followed in this project is explained below:
 Step 1: Data Collection
 A publicly available crop yield dataset was used.
@@ -47,7 +48,8 @@ Step 8: Inference & Interpretation
 Compared predicted and actual yield values.
 Used feature importance from Random Forest to explain model behavior.
 
-3.Results & Metrics
+3.Results & Metrics:
+
 The performance of both models was evaluated using standard regression metrics:
 Evaluation Metrics Used
 Mean Absolute Error (MAE) – Average prediction error
@@ -59,7 +61,8 @@ Random Forest Regressor performed better due to its ability to capture non-linea
 Features such as rainfall, temperature, and cultivated area showed high influence on crop yield.
 The evaluation confirms that the model successfully learns patterns from historical data and provides reasonable yield predictions.
 
-4. Code (GitHub / Colab)
+4.Code (GitHub / Colab):
+
 The complete implementation of this project is available in a Google Collab, which includes:
 Data preprocessing
 Feature engineering
